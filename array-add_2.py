@@ -3,7 +3,7 @@
 import numpy as np
 
 line1 = input('please enter numbers for first array: ').split(",")
-line1 = list(map(int, line1))#入力した数列を文字の形からint型に変換
+line1 = list(map(int, line1))
 print(line1)
 
 line2 = input('please enter numbers for second array: ').split(",")
